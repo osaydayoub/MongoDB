@@ -1,0 +1,29 @@
+use findMyRestaurant
+switched to db findMyRestaurant
+db.restaurants.insertOne({
+  name: "Ristocaffè",
+  address: {
+    city: "Roma",
+    street: " Corso Vittorio Emanuele II, 215, 00186",
+    coordinates: [
+      -77.564,
+      40.677
+    ]
+  },
+  cuisine: "Cafe",
+  isKosherHalal: true,
+  reviews: [
+    {
+      date: new Date("<2024-01-02>"),
+      score: 4
+    },
+	{
+      date: new Date("<2023-12-26>"),
+      score: 4.7
+    },
+    {
+      date: new Date("<2023-11-20>"),
+      score: 3.5
+    },
+  ]
+})

@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "659562060c91caba45ec4901"
+  },
+  "name": "Jazz Cafè",
+  "address": {
+    "city": "Roma",
+    "street": "Via Giuseppe Zanardelli",
+    "coordinates": [
+      -77.564,
+      40.677
+    ]
+  },
+  "cuisine": "Cafe",
+  "isKosherHalal": false,
+  "reviews": [
+    {
+      "date": {
+        "$date": "2024-01-01T22:00:00.000Z"
+      },
+      "score": 4
+    },
+    {
+      "date": {
+        "$date": "2023-12-01T22:00:00.000Z"
+      },
+      "score": 4.5
+    },
+    {
+      "date": {
+        "$date": "2023-11-14T22:00:00.000Z"
+      },
+      "score": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6595635d0c91caba45ec4902"
+  },
+  "name": "Piccolo Buco",
+  "address": {
+    "city": "Roma",
+    "street": "Via del Lavatore",
+    "coordinates": [
+      -77.564,
+      40.677
+    ]
+  },
+  "cuisine": "Pizza",
+  "isKosherHalal": true,
+  "reviews": [
+    {
+      "date": {
+        "$date": "2024-01-02T22:00:00.000Z"
+      },
+      "score": 5
+    },
+    {
+      "date": {
+        "$date": "2023-12-21T22:00:00.000Z"
+      },
+      "score": 4.5
+    },
+    {
+      "date": {
+        "$date": "2023-11-24T22:00:00.000Z"
+      },
+      "score": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659564310c91caba45ec4903"
+  },
+  "name": "La Pizzateca",
+  "address": {
+    "city": "Madrid",
+    "street": "C. del León, 35, Centro",
+    "coordinates": [
+      -77.564,
+      40.677
+    ]
+  },
+  "cuisine": "Pizza",
+  "isKosherHalal": true,
+  "reviews": [
+    {
+      "date": {
+        "$date": "2023-12-31T22:00:00.000Z"
+      },
+      "score": 5
+    },
+    {
+      "date": {
+        "$date": "2023-11-21T22:00:00.000Z"
+      },
+      "score": 4.5
+    },
+    {
+      "date": {
+        "$date": "2023-10-01T21:00:00.000Z"
+      },
+      "score": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659566590c91caba45ec4904"
+  },
+  "name": "Ristorante Pizzeria Eden Barcelona",
+  "address": {
+    "city": "Barcelona",
+    "street": "C/ de Provença, 332, L'Eixample, 08037",
+    "coordinates": [
+      -77.564,
+      40.677
+    ]
+  },
+  "cuisine": "Pizza",
+  "isKosherHalal": true,
+  "reviews": [
+    {
+      "date": {
+        "$date": "2023-12-31T22:00:00.000Z"
+      },
+      "score": 4
+    },
+    {
+      "date": {
+        "$date": "2023-10-01T21:00:00.000Z"
+      },
+      "score": 4.5
+    },
+    {
+      "date": {
+        "$date": "2023-11-11T22:00:00.000Z"
+      },
+      "score": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6595673f0c91caba45ec4905"
+  },
+  "name": "Ristocaffè",
+  "address": {
+    "city": "Roma",
+    "street": " Corso Vittorio Emanuele II, 215, 00186",
+    "coordinates": [
+      -77.564,
+      40.677
+    ]
+  },
+  "cuisine": "Cafe",
+  "isKosherHalal": true,
+  "reviews": [
+    {
+      "date": {
+        "$date": "2024-01-01T22:00:00.000Z"
+      },
+      "score": 4
+    },
+    {
+      "date": {
+        "$date": "2023-12-25T22:00:00.000Z"
+      },
+      "score": 4.7
+    },
+    {
+      "date": {
+        "$date": "2023-11-19T22:00:00.000Z"
+      },
+      "score": 3.5
+    }
+  ]
+}]
